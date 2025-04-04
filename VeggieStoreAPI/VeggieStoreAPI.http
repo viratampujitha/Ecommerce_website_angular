@@ -1,0 +1,6 @@
+@VeggieStoreAPI_HostAddress = http://localhost:5227
+
+GET {{VeggieStoreAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
