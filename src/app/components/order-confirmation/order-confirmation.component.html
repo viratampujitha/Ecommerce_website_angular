@@ -1,0 +1,3 @@
+<h2 *ngIf="!orderPlaced">Confirm Order?</h2>
+<button *ngIf="!orderPlaced" (click)="confirmOrder()">Confirm</button>
+<h2 *ngIf="orderPlaced">Order Placed Successfully! Redirecting...</h2>
