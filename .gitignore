@@ -1,0 +1,13 @@
+# Ignore build and runtime files
+bin/
+obj/
+.vs/
+.vscode/
+
+# Ignore environment files
+appsettings.json
+appsettings.Development.json
+
+# Ignore dependencies (for Angular frontend)
+node_modules/
+dist/
